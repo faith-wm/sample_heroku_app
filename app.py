@@ -15,7 +15,7 @@ def index():
     f.close()
     # Render HTML with count variable
     fx=open('tess.txt','w')
-    fx.write(10)
+    fx.write("10")
     fx.close()
     
     return render_template("index.html", count=count)
